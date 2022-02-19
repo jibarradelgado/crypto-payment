@@ -2,7 +2,7 @@
   "name": "crypto-payment",
   "version": "1.0.0",
   "description": "A system that will receive payments in crypto and, according to the exchanges API, will decide to keep long or to sell into fiat. ",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "run": "node src",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/jibarradelgado/crypto-payment#readme",
   "dependencies": {
+    "eslint": "^8.8.0",
     "node-fetch": "^3.2.0"
   }
 }
